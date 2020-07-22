@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: dx_robot
+    relative_path: urdf/dx_workcell.xacro
+    xacro_args: robot_config:=motoman_gp7
+  SRDF:
+    relative_path: config/dx_workcell.srdf
+  CONFIG:
+    author_name: Leo Keselman
+    author_email: leo.keselman@rios.ai
+    generated_timestamp: 1595443816
